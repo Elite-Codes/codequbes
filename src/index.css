@@ -34,7 +34,7 @@ body{
   transition: all .2s;
   margin-left: 4rem;
   border-radius: 67px;
-  background: var(--primary);
+  background: linear-gradient(86deg, rgba(125,84,240,1) 55%, rgba(103,44,235,1) 95%);
   color: var(--primary-font-color);
   border: none;
   font-size: 1.8rem;
@@ -43,19 +43,11 @@ body{
 }
 
 .btn:hover {
-  transform: translateY(-.3rem);
-  box-shadow: 0 10px 20px var(--secondary);
   background: #E1D5FB;
   color: #7D54F0;
 }
 
-.btn::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
 
-.btn:active {
-  transform: translateY(-.1rem);
-  box-shadow: 0 .5rem 1rem var(--secondary);
-}
+
+
 
