@@ -1,0 +1,66 @@
+.hero{
+    min-height: 85vh;
+    width: 90%;
+    margin: auto;
+
+}
+
+.hero--text {
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+}
+
+.primary-heading {
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+.secondary-heading{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 912px) {
+    html{
+        font-size: 45%;
+    }
+    .primary-heading{
+        font-size: 5rem;
+        font-weight: 600;
+        padding: 2rem 0rem;
+    }
+
+
+}
+@media screen and (max-width: 701px) {
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary-heading{
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+        padding: 2rem 0rem;
+    }
+    .secondary-heading{
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+}
+
+/* Button seems moving to left a bit due to the css properties used in initital stages so manual css is set for button element in order to center accurately*/
+
+@media screen and (max-width: 576px) {
+    .hero{
+        margin: 0;
+    }
+    .button {
+        margin-bottom: 3rem;
+        margin-left: -2rem;
+    }
+}
+

@@ -1,0 +1,24 @@
+.aboutus{
+    min-height: 80vh;
+    background: white;  
+}
+
+.aboutus .container{
+    min-height: 70vh;
+    background: linear-gradient(86deg, rgba(125,84,240,1) 55%, rgba(103,44,235,1) 95%);
+
+}
+
+.aboutus h1{
+    font-size: 4.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .aboutus .container {
+        margin: 2rem;
+    }
+    .aboutus h1 {
+        font-size: 3rem;
+    }
+}

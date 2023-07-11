@@ -1,0 +1,56 @@
+:root{
+  --primary: #7D54F0;
+  --secondary: #1C3041;
+  --primary-font-color: white;
+  --secondary-font-color: rgb(0, 0, 0);
+  --primary-font: 'Gothic A1', sans-serif;
+  
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%; /* 1rem = 10px; 10px/16 =62.5% */
+}
+
+body{
+  background: url(/Rectangle\ 15.png);
+  color: var(--primary-font-color);
+  font-family: var(--primary-font);
+  font-weight: 200;
+}
+
+
+
+/* Button Styling */
+
+.btn{
+  text-decoration: none;
+  padding: 1.8rem 5rem;
+  background: linear-gradient(86deg, rgba(125,84,240,1) 55%, rgba(103,44,235,1) 95%);
+  display: inline-block;
+  transition: 0.5s ease-in;
+  margin-left: 4rem;
+  border-radius: 67px;
+  color: var(--primary-font-color);
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-weight: 400;
+  
+}
+
+.btn:hover {
+  background: #E1D5FB;
+  color: #7D54F0;
+  transition: 0.5s ease-in-out;
+}
+
+
+
+
+

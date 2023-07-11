@@ -1,0 +1,77 @@
+.hero03 {
+    min-height: 90vh;
+    background: white;
+    color: black;
+    /* background: rgb(78,19,205);
+    background: linear-gradient(86deg, rgba(78,19,205,1) 55%, rgba(103,44,235,1) 95%); */
+}
+
+.hero03 img{
+    max-width: 100%;
+}
+
+.hero03 h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero03--rhs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: self-start;
+}
+
+.hero03--rhs ul {
+    margin-bottom: 2rem;
+}
+
+.hero03--rhs ul li{
+    list-style: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+
+.hero03--rhs ul li img{
+    height: 22px;
+    padding-right: 1rem;
+}
+
+
+.hero03--rhs .btn{
+    align-self: self-start;
+}
+
+@media screen and (max-width: 768px) {
+    .hero03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .hero03--rhs {
+        align-items: center;
+        text-align: center;
+    }
+    .hero03--rhs .btn {
+        align-self: center;
+    }
+    .hero03 h1 {
+        font-size: 2.7rem;
+    }
+
+    .hero03--rhs ul li {
+        font-size: 1.3rem;
+    }
+
+    .title--describe {
+        font-size: 1.4rem;
+    }
+
+    .hero03-img{
+        margin-top: 5rem;
+    }
+
+}

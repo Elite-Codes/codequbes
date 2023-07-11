@@ -1,0 +1,40 @@
+
+.contact--form{
+    min-height: 100vh;
+    background: linear-gradient(86deg, rgba(125,84,240,1) 55%, rgba(103,44,235,1) 95%);
+    font-size: 2rem;
+}
+
+
+.contact--form h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.contact--form p{
+    font-size: 1.6rem;
+
+}
+
+.form-control{
+    padding: 1rem;
+}
+
+
+#query{
+    height: 140px;
+}
+
+.contact--form .btn{
+    background: #1C3041;
+    border-radius: 8px;
+    border-style: none;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .contact-con{
+        margin-top: 2rem;
+    }
+}
+
